@@ -2,7 +2,7 @@
 
 emails = ["student@mec.edu", "teacher@mec.edu"]
 
-for request in range(1):
+for request in range(3):
     email = "student@mec.edu"
     
     if email in emails:
@@ -15,3 +15,4 @@ for request in range(1):
             print("Password does not meet requirements")
     else:
         print("User not found")
+
