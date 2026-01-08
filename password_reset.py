@@ -9,10 +9,11 @@ for request in range(3):
         print("Email found")
         password = "NewPass123"
         
-        if len(password) >= 8:
+        if len(password) >= 10:
             print("Password reset successful")
         else:
             print("Password does not meet requirements")
     else:
         print("User not found")
+
 
